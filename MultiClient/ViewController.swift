@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    private let isBeta = AppConfig.stringValue(key: "dhs_beta") == "true"
+class ViewController: MainViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        title = clientName
         
         txtLabel.text = "This build is \(isBeta ? "Beta" : "Live")"
     }

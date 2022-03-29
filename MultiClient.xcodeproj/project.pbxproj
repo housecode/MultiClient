@@ -28,8 +28,13 @@
 		F2AB73A527F3709E00010363 /* Live.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73A427F3709E00010363 /* Live.xcconfig */; };
 		F2AB73A627F3709E00010363 /* Live.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73A427F3709E00010363 /* Live.xcconfig */; };
 		F2AB73A827F3756900010363 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB73A727F3756800010363 /* AppConfig.swift */; };
-		F2AB73AA27F382F100010363 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73A927F382F000010363 /* Info.plist */; };
 		F2AB73AB27F384DE00010363 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB73A727F3756800010363 /* AppConfig.swift */; };
+		F2AB73B427F38B6B00010363 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB73B327F38B6B00010363 /* MainViewController.swift */; };
+		F2AB73B527F38B6B00010363 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB73B327F38B6B00010363 /* MainViewController.swift */; };
+		F2AB73BC27F38E5C00010363 /* SecondClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73BA27F38E5C00010363 /* SecondClient.plist */; };
+		F2AB73BD27F38E5C00010363 /* SecondClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73BA27F38E5C00010363 /* SecondClient.plist */; };
+		F2AB73BE27F38E5C00010363 /* MultiClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73BB27F38E5C00010363 /* MultiClient.plist */; };
+		F2AB73BF27F38E5C00010363 /* MultiClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73BB27F38E5C00010363 /* MultiClient.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,10 +79,12 @@
 		F2AB735227F3649700010363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2AB735527F3649700010363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2AB736B27F3652C00010363 /* SecondClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2AB73A127F3707500010363 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
-		F2AB73A427F3709E00010363 /* Live.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Live.xcconfig; sourceTree = "<group>"; };
+		F2AB73A127F3707500010363 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Beta.xcconfig; path = ../Config/Beta.xcconfig; sourceTree = "<group>"; };
+		F2AB73A427F3709E00010363 /* Live.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Live.xcconfig; path = ../Config/Live.xcconfig; sourceTree = "<group>"; };
 		F2AB73A727F3756800010363 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
-		F2AB73A927F382F000010363 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AB73B327F38B6B00010363 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F2AB73BA27F38E5C00010363 /* SecondClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SecondClient.plist; sourceTree = "<group>"; };
+		F2AB73BB27F38E5C00010363 /* MultiClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultiClient.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +156,7 @@
 		F2AB733A27F3649500010363 = {
 			isa = PBXGroup;
 			children = (
+				F2AB73B627F38C8300010363 /* Config */,
 				F2AB734527F3649500010363 /* MultiClient */,
 				F2AB734427F3649500010363 /* Products */,
 				D3F358E8B48620ABDEC1D6B5 /* Pods */,
@@ -168,8 +176,6 @@
 		F2AB734527F3649500010363 /* MultiClient */ = {
 			isa = PBXGroup;
 			children = (
-				F2AB73A927F382F000010363 /* Info.plist */,
-				F2AB73A027F36F9000010363 /* Config */,
 				F2AB734627F3649500010363 /* AppDelegate.swift */,
 				F2AB734827F3649500010363 /* SceneDelegate.swift */,
 				F2AB734A27F3649500010363 /* ViewController.swift */,
@@ -178,13 +184,16 @@
 				F2AB735427F3649700010363 /* LaunchScreen.storyboard */,
 				F2AB734F27F3649500010363 /* MultiClient.xcdatamodeld */,
 				F2AB73A727F3756800010363 /* AppConfig.swift */,
+				F2AB73B327F38B6B00010363 /* MainViewController.swift */,
 			);
 			path = MultiClient;
 			sourceTree = "<group>";
 		};
-		F2AB73A027F36F9000010363 /* Config */ = {
+		F2AB73B627F38C8300010363 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				F2AB73BB27F38E5C00010363 /* MultiClient.plist */,
+				F2AB73BA27F38E5C00010363 /* SecondClient.plist */,
 				F2AB73A127F3707500010363 /* Beta.xcconfig */,
 				F2AB73A427F3709E00010363 /* Live.xcconfig */,
 			);
@@ -269,9 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AB73AA27F382F100010363 /* Info.plist in Resources */,
 				F2AB73A227F3707500010363 /* Beta.xcconfig in Resources */,
+				F2AB73BC27F38E5C00010363 /* SecondClient.plist in Resources */,
 				F2AB735627F3649700010363 /* LaunchScreen.storyboard in Resources */,
+				F2AB73BE27F38E5C00010363 /* MultiClient.plist in Resources */,
 				F2AB735327F3649700010363 /* Assets.xcassets in Resources */,
 				F2AB73A527F3709E00010363 /* Live.xcconfig in Resources */,
 				F2AB734E27F3649500010363 /* Main.storyboard in Resources */,
@@ -283,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AB73A327F3707500010363 /* Beta.xcconfig in Resources */,
+				F2AB73BD27F38E5C00010363 /* SecondClient.plist in Resources */,
 				F2AB736527F3652C00010363 /* LaunchScreen.storyboard in Resources */,
+				F2AB73BF27F38E5C00010363 /* MultiClient.plist in Resources */,
 				F2AB73A627F3709E00010363 /* Live.xcconfig in Resources */,
 				F2AB736627F3652C00010363 /* Assets.xcassets in Resources */,
 				F2AB736727F3652C00010363 /* Main.storyboard in Resources */,
@@ -347,6 +359,7 @@
 				F2AB734B27F3649500010363 /* ViewController.swift in Sources */,
 				F2AB73A827F3756900010363 /* AppConfig.swift in Sources */,
 				F2AB734727F3649500010363 /* AppDelegate.swift in Sources */,
+				F2AB73B427F38B6B00010363 /* MainViewController.swift in Sources */,
 				F2AB735127F3649500010363 /* MultiClient.xcdatamodeld in Sources */,
 				F2AB734927F3649500010363 /* SceneDelegate.swift in Sources */,
 			);
@@ -359,6 +372,7 @@
 				F2AB735F27F3652C00010363 /* ViewController.swift in Sources */,
 				F2AB73AB27F384DE00010363 /* AppConfig.swift in Sources */,
 				F2AB736027F3652C00010363 /* AppDelegate.swift in Sources */,
+				F2AB73B527F38B6B00010363 /* MainViewController.swift in Sources */,
 				F2AB736127F3652C00010363 /* MultiClient.xcdatamodeld in Sources */,
 				F2AB736227F3652C00010363 /* SceneDelegate.swift in Sources */,
 			);
@@ -514,7 +528,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = Config/MultiClient.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -544,7 +558,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = Config/MultiClient.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -574,7 +588,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = Config/SecondClient.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -604,7 +618,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = Config/SecondClient.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -696,7 +710,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = Config/MultiClient.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -726,7 +740,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = Config/SecondClient.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -812,7 +826,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = Config/MultiClient.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -842,7 +856,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = Config/SecondClient.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
