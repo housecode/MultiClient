@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B467CE70A5D6A8F05A5545 /* libPods-MultiClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 349874291B21610941D61F92 /* libPods-MultiClient.a */; };
+		CC69AD69EF3822564484396E /* libPods-SecondClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF33F5944B89776F62B584DE /* libPods-SecondClient.a */; };
 		F2AB734727F3649500010363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB734627F3649500010363 /* AppDelegate.swift */; };
 		F2AB734927F3649500010363 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB734827F3649500010363 /* SceneDelegate.swift */; };
 		F2AB734B27F3649500010363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB734A27F3649500010363 /* ViewController.swift */; };
@@ -14,9 +16,50 @@
 		F2AB735127F3649500010363 /* MultiClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2AB734F27F3649500010363 /* MultiClient.xcdatamodeld */; };
 		F2AB735327F3649700010363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AB735227F3649700010363 /* Assets.xcassets */; };
 		F2AB735627F3649700010363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AB735427F3649700010363 /* LaunchScreen.storyboard */; };
+		F2AB735F27F3652C00010363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB734A27F3649500010363 /* ViewController.swift */; };
+		F2AB736027F3652C00010363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB734627F3649500010363 /* AppDelegate.swift */; };
+		F2AB736127F3652C00010363 /* MultiClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2AB734F27F3649500010363 /* MultiClient.xcdatamodeld */; };
+		F2AB736227F3652C00010363 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB734827F3649500010363 /* SceneDelegate.swift */; };
+		F2AB736527F3652C00010363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AB735427F3649700010363 /* LaunchScreen.storyboard */; };
+		F2AB736627F3652C00010363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AB735227F3649700010363 /* Assets.xcassets */; };
+		F2AB736727F3652C00010363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AB734C27F3649500010363 /* Main.storyboard */; };
+		F2AB738A27F36D4300010363 /* SecondClient-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB738827F36D4300010363 /* SecondClient-Info.plist */; };
+		F2AB738B27F36D4300010363 /* MultiClient-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB738927F36D4300010363 /* MultiClient-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0367C894C96029F6E149FFB2 /* Pods-MultiClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient.release.xcconfig"; path = "Target Support Files/Pods-MultiClient/Pods-MultiClient.release.xcconfig"; sourceTree = "<group>"; };
+		07AEC9A9F554DA50848B502C /* Pods-SecondClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient.debug.xcconfig"; path = "Target Support Files/Pods-SecondClient/Pods-SecondClient.debug.xcconfig"; sourceTree = "<group>"; };
+		17A48ED4D35B3DFAA2827497 /* Pods-MultiClient.releaselive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient.releaselive.xcconfig"; path = "Target Support Files/Pods-MultiClient/Pods-MultiClient.releaselive.xcconfig"; sourceTree = "<group>"; };
+		1AE1B3C701274C6812495A9D /* Pods-SecondClient-Live.releasebeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient-Live.releasebeta.xcconfig"; path = "Target Support Files/Pods-SecondClient-Live/Pods-SecondClient-Live.releasebeta.xcconfig"; sourceTree = "<group>"; };
+		2DB43077106F65558EA0FCC1 /* Pods-SecondClient.debuglive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient.debuglive.xcconfig"; path = "Target Support Files/Pods-SecondClient/Pods-SecondClient.debuglive.xcconfig"; sourceTree = "<group>"; };
+		2E9695163388612FB9E397A6 /* Pods-SecondClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient.release.xcconfig"; path = "Target Support Files/Pods-SecondClient/Pods-SecondClient.release.xcconfig"; sourceTree = "<group>"; };
+		349874291B21610941D61F92 /* libPods-MultiClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEBBBF734C50AFBBA8713C6 /* Pods-SecondClient.debugbeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient.debugbeta.xcconfig"; path = "Target Support Files/Pods-SecondClient/Pods-SecondClient.debugbeta.xcconfig"; sourceTree = "<group>"; };
+		52DCD9E65D6CE25F37FADC34 /* Pods-SecondClient-Live.debugbeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient-Live.debugbeta.xcconfig"; path = "Target Support Files/Pods-SecondClient-Live/Pods-SecondClient-Live.debugbeta.xcconfig"; sourceTree = "<group>"; };
+		5322AED620F1A9B3BF28B93F /* Pods-MultiClient-Live.releasebeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient-Live.releasebeta.xcconfig"; path = "Target Support Files/Pods-MultiClient-Live/Pods-MultiClient-Live.releasebeta.xcconfig"; sourceTree = "<group>"; };
+		558BDD82C7F608931D90294B /* Pods-SecondClient-Beta.debugbeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient-Beta.debugbeta.xcconfig"; path = "Target Support Files/Pods-SecondClient-Beta/Pods-SecondClient-Beta.debugbeta.xcconfig"; sourceTree = "<group>"; };
+		569267C3853189DE4C8DE754 /* Pods-MultiClient-Live.releaselive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient-Live.releaselive.xcconfig"; path = "Target Support Files/Pods-MultiClient-Live/Pods-MultiClient-Live.releaselive.xcconfig"; sourceTree = "<group>"; };
+		56CBC0BF70E3120BB1AF80C8 /* libPods-MultiClient-Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiClient-Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59348E61AFD4673DDDE9B4A9 /* Pods-MultiClient.releasebeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient.releasebeta.xcconfig"; path = "Target Support Files/Pods-MultiClient/Pods-MultiClient.releasebeta.xcconfig"; sourceTree = "<group>"; };
+		5A06D1447ACCBF852987E4C3 /* Pods-SecondClient-Beta.debuglive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient-Beta.debuglive.xcconfig"; path = "Target Support Files/Pods-SecondClient-Beta/Pods-SecondClient-Beta.debuglive.xcconfig"; sourceTree = "<group>"; };
+		689378CD45F8EF49693A90AA /* Pods-SecondClient-Live.releaselive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient-Live.releaselive.xcconfig"; path = "Target Support Files/Pods-SecondClient-Live/Pods-SecondClient-Live.releaselive.xcconfig"; sourceTree = "<group>"; };
+		6F0BA5E94D37B641068D9DA3 /* Pods-MultiClient.debugbeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient.debugbeta.xcconfig"; path = "Target Support Files/Pods-MultiClient/Pods-MultiClient.debugbeta.xcconfig"; sourceTree = "<group>"; };
+		7B888253A15D4DE1A5B0681A /* Pods-MultiClient.debuglive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient.debuglive.xcconfig"; path = "Target Support Files/Pods-MultiClient/Pods-MultiClient.debuglive.xcconfig"; sourceTree = "<group>"; };
+		83E20D1CAD107F2077F4CAB6 /* Pods-SecondClient.releaselive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient.releaselive.xcconfig"; path = "Target Support Files/Pods-SecondClient/Pods-SecondClient.releaselive.xcconfig"; sourceTree = "<group>"; };
+		85482B08862929A8C8C0B601 /* Pods-SecondClient-Live.debuglive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient-Live.debuglive.xcconfig"; path = "Target Support Files/Pods-SecondClient-Live/Pods-SecondClient-Live.debuglive.xcconfig"; sourceTree = "<group>"; };
+		8D6D6135610DE02B6FD59533 /* Pods-MultiClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient.debug.xcconfig"; path = "Target Support Files/Pods-MultiClient/Pods-MultiClient.debug.xcconfig"; sourceTree = "<group>"; };
+		A125B62A54AA6DF4AF5E7831 /* Pods-MultiClient-Live.debuglive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient-Live.debuglive.xcconfig"; path = "Target Support Files/Pods-MultiClient-Live/Pods-MultiClient-Live.debuglive.xcconfig"; sourceTree = "<group>"; };
+		A5009F078B5DA1441B3B560D /* Pods-MultiClient-Beta.debuglive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient-Beta.debuglive.xcconfig"; path = "Target Support Files/Pods-MultiClient-Beta/Pods-MultiClient-Beta.debuglive.xcconfig"; sourceTree = "<group>"; };
+		AA292F7268EFF19B78359742 /* libPods-SecondClient-Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecondClient-Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC82008031B98C1A5A34314A /* Pods-MultiClient-Live.debugbeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient-Live.debugbeta.xcconfig"; path = "Target Support Files/Pods-MultiClient-Live/Pods-MultiClient-Live.debugbeta.xcconfig"; sourceTree = "<group>"; };
+		B35385E2019A4492A6191C48 /* Pods-SecondClient.releasebeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient.releasebeta.xcconfig"; path = "Target Support Files/Pods-SecondClient/Pods-SecondClient.releasebeta.xcconfig"; sourceTree = "<group>"; };
+		B5A76B30B67DF9EDE3EA6484 /* Pods-MultiClient-Beta.releasebeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient-Beta.releasebeta.xcconfig"; path = "Target Support Files/Pods-MultiClient-Beta/Pods-MultiClient-Beta.releasebeta.xcconfig"; sourceTree = "<group>"; };
+		C2EC35F528404A39A9B6A430 /* Pods-SecondClient-Beta.releasebeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient-Beta.releasebeta.xcconfig"; path = "Target Support Files/Pods-SecondClient-Beta/Pods-SecondClient-Beta.releasebeta.xcconfig"; sourceTree = "<group>"; };
+		D3AA79E3C009DF1918A58A7C /* Pods-MultiClient-Beta.debugbeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient-Beta.debugbeta.xcconfig"; path = "Target Support Files/Pods-MultiClient-Beta/Pods-MultiClient-Beta.debugbeta.xcconfig"; sourceTree = "<group>"; };
+		DF33F5944B89776F62B584DE /* libPods-SecondClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecondClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62C1A319E08E3A2CC744FD3 /* Pods-MultiClient-Beta.releaselive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiClient-Beta.releaselive.xcconfig"; path = "Target Support Files/Pods-MultiClient-Beta/Pods-MultiClient-Beta.releaselive.xcconfig"; sourceTree = "<group>"; };
+		EBFECB8094DC73D2B09D35AB /* Pods-SecondClient-Beta.releaselive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondClient-Beta.releaselive.xcconfig"; path = "Target Support Files/Pods-SecondClient-Beta/Pods-SecondClient-Beta.releaselive.xcconfig"; sourceTree = "<group>"; };
 		F2AB734327F3649500010363 /* MultiClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AB734627F3649500010363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2AB734827F3649500010363 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +68,9 @@
 		F2AB735027F3649500010363 /* MultiClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultiClient.xcdatamodel; sourceTree = "<group>"; };
 		F2AB735227F3649700010363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2AB735527F3649700010363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F2AB735727F3649700010363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AB736B27F3652C00010363 /* SecondClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AB738827F36D4300010363 /* SecondClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SecondClient-Info.plist"; sourceTree = "<group>"; };
+		F2AB738927F36D4300010363 /* MultiClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultiClient-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +78,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B467CE70A5D6A8F05A5545 /* libPods-MultiClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AB736327F3652C00010363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC69AD69EF3822564484396E /* libPods-SecondClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CE35E00349083C87C4A86F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56CBC0BF70E3120BB1AF80C8 /* libPods-MultiClient-Live.a */,
+				AA292F7268EFF19B78359742 /* libPods-SecondClient-Live.a */,
+				349874291B21610941D61F92 /* libPods-MultiClient.a */,
+				DF33F5944B89776F62B584DE /* libPods-SecondClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3F358E8B48620ABDEC1D6B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D6D6135610DE02B6FD59533 /* Pods-MultiClient.debug.xcconfig */,
+				0367C894C96029F6E149FFB2 /* Pods-MultiClient.release.xcconfig */,
+				07AEC9A9F554DA50848B502C /* Pods-SecondClient.debug.xcconfig */,
+				2E9695163388612FB9E397A6 /* Pods-SecondClient.release.xcconfig */,
+				D3AA79E3C009DF1918A58A7C /* Pods-MultiClient-Beta.debugbeta.xcconfig */,
+				A5009F078B5DA1441B3B560D /* Pods-MultiClient-Beta.debuglive.xcconfig */,
+				B5A76B30B67DF9EDE3EA6484 /* Pods-MultiClient-Beta.releasebeta.xcconfig */,
+				E62C1A319E08E3A2CC744FD3 /* Pods-MultiClient-Beta.releaselive.xcconfig */,
+				AC82008031B98C1A5A34314A /* Pods-MultiClient-Live.debugbeta.xcconfig */,
+				A125B62A54AA6DF4AF5E7831 /* Pods-MultiClient-Live.debuglive.xcconfig */,
+				5322AED620F1A9B3BF28B93F /* Pods-MultiClient-Live.releasebeta.xcconfig */,
+				569267C3853189DE4C8DE754 /* Pods-MultiClient-Live.releaselive.xcconfig */,
+				558BDD82C7F608931D90294B /* Pods-SecondClient-Beta.debugbeta.xcconfig */,
+				5A06D1447ACCBF852987E4C3 /* Pods-SecondClient-Beta.debuglive.xcconfig */,
+				C2EC35F528404A39A9B6A430 /* Pods-SecondClient-Beta.releasebeta.xcconfig */,
+				EBFECB8094DC73D2B09D35AB /* Pods-SecondClient-Beta.releaselive.xcconfig */,
+				52DCD9E65D6CE25F37FADC34 /* Pods-SecondClient-Live.debugbeta.xcconfig */,
+				85482B08862929A8C8C0B601 /* Pods-SecondClient-Live.debuglive.xcconfig */,
+				1AE1B3C701274C6812495A9D /* Pods-SecondClient-Live.releasebeta.xcconfig */,
+				689378CD45F8EF49693A90AA /* Pods-SecondClient-Live.releaselive.xcconfig */,
+				6F0BA5E94D37B641068D9DA3 /* Pods-MultiClient.debugbeta.xcconfig */,
+				7B888253A15D4DE1A5B0681A /* Pods-MultiClient.debuglive.xcconfig */,
+				59348E61AFD4673DDDE9B4A9 /* Pods-MultiClient.releasebeta.xcconfig */,
+				17A48ED4D35B3DFAA2827497 /* Pods-MultiClient.releaselive.xcconfig */,
+				4DEBBBF734C50AFBBA8713C6 /* Pods-SecondClient.debugbeta.xcconfig */,
+				2DB43077106F65558EA0FCC1 /* Pods-SecondClient.debuglive.xcconfig */,
+				B35385E2019A4492A6191C48 /* Pods-SecondClient.releasebeta.xcconfig */,
+				83E20D1CAD107F2077F4CAB6 /* Pods-SecondClient.releaselive.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F2AB733A27F3649500010363 = {
 			isa = PBXGroup;
 			children = (
+				F2AB738727F36CEB00010363 /* Info */,
 				F2AB734527F3649500010363 /* MultiClient */,
 				F2AB734427F3649500010363 /* Products */,
+				D3F358E8B48620ABDEC1D6B5 /* Pods */,
+				3CE35E00349083C87C4A86F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				F2AB734327F3649500010363 /* MultiClient.app */,
+				F2AB736B27F3652C00010363 /* SecondClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +162,32 @@
 		F2AB734527F3649500010363 /* MultiClient */ = {
 			isa = PBXGroup;
 			children = (
+				F2AB73A027F36F9000010363 /* Config */,
 				F2AB734627F3649500010363 /* AppDelegate.swift */,
 				F2AB734827F3649500010363 /* SceneDelegate.swift */,
 				F2AB734A27F3649500010363 /* ViewController.swift */,
 				F2AB734C27F3649500010363 /* Main.storyboard */,
 				F2AB735227F3649700010363 /* Assets.xcassets */,
 				F2AB735427F3649700010363 /* LaunchScreen.storyboard */,
-				F2AB735727F3649700010363 /* Info.plist */,
 				F2AB734F27F3649500010363 /* MultiClient.xcdatamodeld */,
 			);
 			path = MultiClient;
+			sourceTree = "<group>";
+		};
+		F2AB738727F36CEB00010363 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				F2AB738927F36D4300010363 /* MultiClient-Info.plist */,
+				F2AB738827F36D4300010363 /* SecondClient-Info.plist */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		F2AB73A027F36F9000010363 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2AB735A27F3649700010363 /* Build configuration list for PBXNativeTarget "MultiClient" */;
 			buildPhases = (
+				660F835795BABE074E3DCDA1 /* [CP] Check Pods Manifest.lock */,
 				F2AB733F27F3649500010363 /* Sources */,
 				F2AB734027F3649500010363 /* Frameworks */,
 				F2AB734127F3649500010363 /* Resources */,
@@ -88,6 +209,24 @@
 			name = MultiClient;
 			productName = MultiClient;
 			productReference = F2AB734327F3649500010363 /* MultiClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2AB735D27F3652C00010363 /* SecondClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AB736827F3652C00010363 /* Build configuration list for PBXNativeTarget "SecondClient" */;
+			buildPhases = (
+				DCF65B7511AABD8FF0EE2F7A /* [CP] Check Pods Manifest.lock */,
+				F2AB735E27F3652C00010363 /* Sources */,
+				F2AB736327F3652C00010363 /* Frameworks */,
+				F2AB736427F3652C00010363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondClient;
+			productName = MultiClient;
+			productReference = F2AB736B27F3652C00010363 /* SecondClient.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,6 +258,7 @@
 			projectRoot = "";
 			targets = (
 				F2AB734227F3649500010363 /* MultiClient */,
+				F2AB735D27F3652C00010363 /* SecondClient */,
 			);
 		};
 /* End PBXProject section */
@@ -129,12 +269,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AB735627F3649700010363 /* LaunchScreen.storyboard in Resources */,
+				F2AB738A27F36D4300010363 /* SecondClient-Info.plist in Resources */,
+				F2AB738B27F36D4300010363 /* MultiClient-Info.plist in Resources */,
 				F2AB735327F3649700010363 /* Assets.xcassets in Resources */,
 				F2AB734E27F3649500010363 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2AB736427F3652C00010363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AB736527F3652C00010363 /* LaunchScreen.storyboard in Resources */,
+				F2AB736627F3652C00010363 /* Assets.xcassets in Resources */,
+				F2AB736727F3652C00010363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		660F835795BABE074E3DCDA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF65B7511AABD8FF0EE2F7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecondClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2AB733F27F3649500010363 /* Sources */ = {
@@ -145,6 +344,17 @@
 				F2AB734727F3649500010363 /* AppDelegate.swift in Sources */,
 				F2AB735127F3649500010363 /* MultiClient.xcdatamodeld in Sources */,
 				F2AB734927F3649500010363 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AB735E27F3652C00010363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AB735F27F3652C00010363 /* ViewController.swift in Sources */,
+				F2AB736027F3652C00010363 /* AppDelegate.swift in Sources */,
+				F2AB736127F3652C00010363 /* MultiClient.xcdatamodeld in Sources */,
+				F2AB736227F3652C00010363 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +380,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F2AB735827F3649700010363 /* Debug */ = {
+		F2AB735827F3649700010363 /* DebugBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -229,9 +439,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = DebugBeta;
 		};
-		F2AB735927F3649700010363 /* Release */ = {
+		F2AB735927F3649700010363 /* ReleaseBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,22 +494,25 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = ReleaseBeta;
 		};
-		F2AB735B27F3649700010363 /* Debug */ = {
+		F2AB735B27F3649700010363 /* DebugBeta */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0BA5E94D37B641068D9DA3 /* Pods-MultiClient.debugbeta.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = "Info/MultiClient-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,22 +524,25 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = DebugBeta;
 		};
-		F2AB735C27F3649700010363 /* Release */ = {
+		F2AB735C27F3649700010363 /* ReleaseBeta */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59348E61AFD4673DDDE9B4A9 /* Pods-MultiClient.releasebeta.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultiClient/Info.plist;
+				INFOPLIST_FILE = "Info/MultiClient-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +554,303 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = ReleaseBeta;
+		};
+		F2AB736927F3652C00010363 /* DebugBeta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEBBBF734C50AFBBA8713C6 /* Pods-SecondClient.debugbeta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QPSZD98DM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Info/SecondClient-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SecondClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugBeta;
+		};
+		F2AB736A27F3652C00010363 /* ReleaseBeta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35385E2019A4492A6191C48 /* Pods-SecondClient.releasebeta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QPSZD98DM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Info/SecondClient-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SecondClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseBeta;
+		};
+		F2AB736D27F36BE800010363 /* DebugLive */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugLive;
+		};
+		F2AB736E27F36BE800010363 /* DebugLive */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B888253A15D4DE1A5B0681A /* Pods-MultiClient.debuglive.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QPSZD98DM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Info/MultiClient-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MultiClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugLive;
+		};
+		F2AB736F27F36BE800010363 /* DebugLive */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB43077106F65558EA0FCC1 /* Pods-SecondClient.debuglive.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QPSZD98DM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Info/SecondClient-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SecondClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugLive;
+		};
+		F2AB737027F36BFA00010363 /* ReleaseLive */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseLive;
+		};
+		F2AB737127F36BFA00010363 /* ReleaseLive */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A48ED4D35B3DFAA2827497 /* Pods-MultiClient.releaselive.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QPSZD98DM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Info/MultiClient-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MultiClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseLive;
+		};
+		F2AB737227F36BFA00010363 /* ReleaseLive */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E20D1CAD107F2077F4CAB6 /* Pods-SecondClient.releaselive.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QPSZD98DM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Info/SecondClient-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SecondClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseLive;
 		};
 /* End XCBuildConfiguration section */
 
@@ -346,20 +858,35 @@
 		F2AB733E27F3649500010363 /* Build configuration list for PBXProject "MultiClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2AB735827F3649700010363 /* Debug */,
-				F2AB735927F3649700010363 /* Release */,
+				F2AB735827F3649700010363 /* DebugBeta */,
+				F2AB736D27F36BE800010363 /* DebugLive */,
+				F2AB735927F3649700010363 /* ReleaseBeta */,
+				F2AB737027F36BFA00010363 /* ReleaseLive */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = ReleaseBeta;
 		};
 		F2AB735A27F3649700010363 /* Build configuration list for PBXNativeTarget "MultiClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2AB735B27F3649700010363 /* Debug */,
-				F2AB735C27F3649700010363 /* Release */,
+				F2AB735B27F3649700010363 /* DebugBeta */,
+				F2AB736E27F36BE800010363 /* DebugLive */,
+				F2AB735C27F3649700010363 /* ReleaseBeta */,
+				F2AB737127F36BFA00010363 /* ReleaseLive */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = ReleaseBeta;
+		};
+		F2AB736827F3652C00010363 /* Build configuration list for PBXNativeTarget "SecondClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AB736927F3652C00010363 /* DebugBeta */,
+				F2AB736F27F36BE800010363 /* DebugLive */,
+				F2AB736A27F3652C00010363 /* ReleaseBeta */,
+				F2AB737227F36BFA00010363 /* ReleaseLive */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = ReleaseBeta;
 		};
 /* End XCConfigurationList section */
 

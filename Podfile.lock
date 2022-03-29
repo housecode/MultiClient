@@ -1,0 +1,24 @@
+PODS:
+  - EzPopup (1.2.3)
+  - LGAlertView (2.4.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - EzPopup
+  - LGAlertView (~> 2.4.0)
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - EzPopup
+    - LGAlertView
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  EzPopup: bd911825754e020b926287453ad4947045a04d1e
+  LGAlertView: 2f5e83dd5cc2537de57d98727650609e86197d1a
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: f4a47b4b5499d795e6cfc787f22a6cfb985066ff
+
+COCOAPODS: 1.11.2
