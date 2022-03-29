@@ -23,8 +23,13 @@
 		F2AB736527F3652C00010363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AB735427F3649700010363 /* LaunchScreen.storyboard */; };
 		F2AB736627F3652C00010363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AB735227F3649700010363 /* Assets.xcassets */; };
 		F2AB736727F3652C00010363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AB734C27F3649500010363 /* Main.storyboard */; };
-		F2AB738A27F36D4300010363 /* SecondClient-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB738827F36D4300010363 /* SecondClient-Info.plist */; };
-		F2AB738B27F36D4300010363 /* MultiClient-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB738927F36D4300010363 /* MultiClient-Info.plist */; };
+		F2AB73A227F3707500010363 /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73A127F3707500010363 /* Beta.xcconfig */; };
+		F2AB73A327F3707500010363 /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73A127F3707500010363 /* Beta.xcconfig */; };
+		F2AB73A527F3709E00010363 /* Live.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73A427F3709E00010363 /* Live.xcconfig */; };
+		F2AB73A627F3709E00010363 /* Live.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73A427F3709E00010363 /* Live.xcconfig */; };
+		F2AB73A827F3756900010363 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB73A727F3756800010363 /* AppConfig.swift */; };
+		F2AB73AA27F382F100010363 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73A927F382F000010363 /* Info.plist */; };
+		F2AB73AB27F384DE00010363 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB73A727F3756800010363 /* AppConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,8 +74,10 @@
 		F2AB735227F3649700010363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2AB735527F3649700010363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2AB736B27F3652C00010363 /* SecondClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2AB738827F36D4300010363 /* SecondClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SecondClient-Info.plist"; sourceTree = "<group>"; };
-		F2AB738927F36D4300010363 /* MultiClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultiClient-Info.plist"; sourceTree = "<group>"; };
+		F2AB73A127F3707500010363 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
+		F2AB73A427F3709E00010363 /* Live.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Live.xcconfig; sourceTree = "<group>"; };
+		F2AB73A727F3756800010363 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		F2AB73A927F382F000010363 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +149,6 @@
 		F2AB733A27F3649500010363 = {
 			isa = PBXGroup;
 			children = (
-				F2AB738727F36CEB00010363 /* Info */,
 				F2AB734527F3649500010363 /* MultiClient */,
 				F2AB734427F3649500010363 /* Products */,
 				D3F358E8B48620ABDEC1D6B5 /* Pods */,
@@ -162,6 +168,7 @@
 		F2AB734527F3649500010363 /* MultiClient */ = {
 			isa = PBXGroup;
 			children = (
+				F2AB73A927F382F000010363 /* Info.plist */,
 				F2AB73A027F36F9000010363 /* Config */,
 				F2AB734627F3649500010363 /* AppDelegate.swift */,
 				F2AB734827F3649500010363 /* SceneDelegate.swift */,
@@ -170,22 +177,16 @@
 				F2AB735227F3649700010363 /* Assets.xcassets */,
 				F2AB735427F3649700010363 /* LaunchScreen.storyboard */,
 				F2AB734F27F3649500010363 /* MultiClient.xcdatamodeld */,
+				F2AB73A727F3756800010363 /* AppConfig.swift */,
 			);
 			path = MultiClient;
-			sourceTree = "<group>";
-		};
-		F2AB738727F36CEB00010363 /* Info */ = {
-			isa = PBXGroup;
-			children = (
-				F2AB738927F36D4300010363 /* MultiClient-Info.plist */,
-				F2AB738827F36D4300010363 /* SecondClient-Info.plist */,
-			);
-			path = Info;
 			sourceTree = "<group>";
 		};
 		F2AB73A027F36F9000010363 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				F2AB73A127F3707500010363 /* Beta.xcconfig */,
+				F2AB73A427F3709E00010363 /* Live.xcconfig */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -235,7 +236,7 @@
 		F2AB733B27F3649500010363 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
@@ -268,10 +269,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AB73AA27F382F100010363 /* Info.plist in Resources */,
+				F2AB73A227F3707500010363 /* Beta.xcconfig in Resources */,
 				F2AB735627F3649700010363 /* LaunchScreen.storyboard in Resources */,
-				F2AB738A27F36D4300010363 /* SecondClient-Info.plist in Resources */,
-				F2AB738B27F36D4300010363 /* MultiClient-Info.plist in Resources */,
 				F2AB735327F3649700010363 /* Assets.xcassets in Resources */,
+				F2AB73A527F3709E00010363 /* Live.xcconfig in Resources */,
 				F2AB734E27F3649500010363 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AB73A327F3707500010363 /* Beta.xcconfig in Resources */,
 				F2AB736527F3652C00010363 /* LaunchScreen.storyboard in Resources */,
+				F2AB73A627F3709E00010363 /* Live.xcconfig in Resources */,
 				F2AB736627F3652C00010363 /* Assets.xcassets in Resources */,
 				F2AB736727F3652C00010363 /* Main.storyboard in Resources */,
 			);
@@ -341,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AB734B27F3649500010363 /* ViewController.swift in Sources */,
+				F2AB73A827F3756900010363 /* AppConfig.swift in Sources */,
 				F2AB734727F3649500010363 /* AppDelegate.swift in Sources */,
 				F2AB735127F3649500010363 /* MultiClient.xcdatamodeld in Sources */,
 				F2AB734927F3649500010363 /* SceneDelegate.swift in Sources */,
@@ -352,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AB735F27F3652C00010363 /* ViewController.swift in Sources */,
+				F2AB73AB27F384DE00010363 /* AppConfig.swift in Sources */,
 				F2AB736027F3652C00010363 /* AppDelegate.swift in Sources */,
 				F2AB736127F3652C00010363 /* MultiClient.xcdatamodeld in Sources */,
 				F2AB736227F3652C00010363 /* SceneDelegate.swift in Sources */,
@@ -382,6 +388,7 @@
 /* Begin XCBuildConfiguration section */
 		F2AB735827F3649700010363 /* DebugBeta */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AB73A127F3707500010363 /* Beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -443,6 +450,7 @@
 		};
 		F2AB735927F3649700010363 /* ReleaseBeta */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AB73A127F3707500010363 /* Beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -506,7 +514,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Info/MultiClient-Info.plist";
+				INFOPLIST_FILE = MultiClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -536,7 +544,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Info/MultiClient-Info.plist";
+				INFOPLIST_FILE = MultiClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -566,7 +574,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Info/SecondClient-Info.plist";
+				INFOPLIST_FILE = MultiClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -596,7 +604,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Info/SecondClient-Info.plist";
+				INFOPLIST_FILE = MultiClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -618,6 +626,7 @@
 		};
 		F2AB736D27F36BE800010363 /* DebugLive */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AB73A427F3709E00010363 /* Live.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -687,7 +696,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Info/MultiClient-Info.plist";
+				INFOPLIST_FILE = MultiClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -717,7 +726,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Info/SecondClient-Info.plist";
+				INFOPLIST_FILE = MultiClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -739,6 +748,7 @@
 		};
 		F2AB737027F36BFA00010363 /* ReleaseLive */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AB73A427F3709E00010363 /* Live.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -802,7 +812,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Info/MultiClient-Info.plist";
+				INFOPLIST_FILE = MultiClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -832,7 +842,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Info/SecondClient-Info.plist";
+				INFOPLIST_FILE = MultiClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -864,7 +874,7 @@
 				F2AB737027F36BFA00010363 /* ReleaseLive */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = ReleaseBeta;
+			defaultConfigurationName = ReleaseLive;
 		};
 		F2AB735A27F3649700010363 /* Build configuration list for PBXNativeTarget "MultiClient" */ = {
 			isa = XCConfigurationList;
@@ -875,7 +885,7 @@
 				F2AB737127F36BFA00010363 /* ReleaseLive */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = ReleaseBeta;
+			defaultConfigurationName = ReleaseLive;
 		};
 		F2AB736827F3652C00010363 /* Build configuration list for PBXNativeTarget "SecondClient" */ = {
 			isa = XCConfigurationList;
@@ -886,7 +896,7 @@
 				F2AB737227F36BFA00010363 /* ReleaseLive */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = ReleaseBeta;
+			defaultConfigurationName = ReleaseLive;
 		};
 /* End XCConfigurationList section */
 

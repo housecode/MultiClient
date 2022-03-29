@@ -1,0 +1,11 @@
+//
+//  Live.xcconfig
+//  MultiClient
+//
+//  Created by Cahyo Agung on 29/03/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+DHS_BETA = false
+API_URL = www.hosuecode.net/api-v2
