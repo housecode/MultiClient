@@ -1,3 +1,5 @@
 .DS_Store
 ActivityScheduler.xcworkspace
 Pods
+Podfile.lock
+*.xcworkspace
