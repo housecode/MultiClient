@@ -35,6 +35,8 @@
 		F2AB73BD27F38E5C00010363 /* SecondClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73BA27F38E5C00010363 /* SecondClient.plist */; };
 		F2AB73BE27F38E5C00010363 /* MultiClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73BB27F38E5C00010363 /* MultiClient.plist */; };
 		F2AB73BF27F38E5C00010363 /* MultiClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2AB73BB27F38E5C00010363 /* MultiClient.plist */; };
+		F2D73C0027F42588002E632D /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D73BFC27F42588002E632D /* JASidePanelController.m */; };
+		F2D73C0127F42588002E632D /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D73BFD27F42588002E632D /* UIViewController+JASidePanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +87,11 @@
 		F2AB73B327F38B6B00010363 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F2AB73BA27F38E5C00010363 /* SecondClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SecondClient.plist; sourceTree = "<group>"; };
 		F2AB73BB27F38E5C00010363 /* MultiClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MultiClient.plist; sourceTree = "<group>"; };
+		F2D73BFB27F42587002E632D /* MultiClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2D73BFC27F42588002E632D /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		F2D73BFD27F42588002E632D /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		F2D73BFE27F42588002E632D /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		F2D73BFF27F42588002E632D /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +183,10 @@
 		F2AB734527F3649500010363 /* MultiClient */ = {
 			isa = PBXGroup;
 			children = (
+				F2D73BFA27F4254C002E632D /* JASidePanel */,
 				F2AB734627F3649500010363 /* AppDelegate.swift */,
 				F2AB734827F3649500010363 /* SceneDelegate.swift */,
+				F2D73BFB27F42587002E632D /* MultiClient-Bridging-Header.h */,
 				F2AB734A27F3649500010363 /* ViewController.swift */,
 				F2AB734C27F3649500010363 /* Main.storyboard */,
 				F2AB735227F3649700010363 /* Assets.xcassets */,
@@ -198,6 +207,17 @@
 				F2AB73A427F3709E00010363 /* Live.xcconfig */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		F2D73BFA27F4254C002E632D /* JASidePanel */ = {
+			isa = PBXGroup;
+			children = (
+				F2D73BFF27F42588002E632D /* JASidePanelController.h */,
+				F2D73BFC27F42588002E632D /* JASidePanelController.m */,
+				F2D73BFE27F42588002E632D /* UIViewController+JASidePanel.h */,
+				F2D73BFD27F42588002E632D /* UIViewController+JASidePanel.m */,
+			);
+			path = JASidePanel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +271,7 @@
 				TargetAttributes = {
 					F2AB734227F3649500010363 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -357,10 +378,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AB734B27F3649500010363 /* ViewController.swift in Sources */,
+				F2D73C0127F42588002E632D /* UIViewController+JASidePanel.m in Sources */,
 				F2AB73A827F3756900010363 /* AppConfig.swift in Sources */,
 				F2AB734727F3649500010363 /* AppDelegate.swift in Sources */,
 				F2AB73B427F38B6B00010363 /* MainViewController.swift in Sources */,
 				F2AB735127F3649500010363 /* MultiClient.xcdatamodeld in Sources */,
+				F2D73C0027F42588002E632D /* JASidePanelController.m in Sources */,
 				F2AB734927F3649500010363 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +547,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
@@ -543,6 +567,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MultiClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiClient/MultiClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -554,6 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
@@ -573,6 +600,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MultiClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiClient/MultiClient-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -706,6 +734,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
@@ -725,6 +754,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MultiClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiClient/MultiClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -822,6 +853,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5QPSZD98DM;
@@ -841,6 +873,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MultiClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiClient/MultiClient-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
