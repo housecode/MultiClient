@@ -7,11 +7,16 @@
 
 import UIKit
 
+#if MULTI_CLIENT
+import Toast_Swift
+#else
+import EzPopup
+#endif
+
 class ViewController: MainViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         title = clientName
         
@@ -21,7 +26,14 @@ class ViewController: MainViewController {
     @IBOutlet weak var txtLabel: UILabel!
     
     @IBAction func onClick(_ sender: Any) {
-        
+        #if MULTI_CLIENT
+        self.view.makeToast("This build is \(isBeta ? "Beta" : "Live")")
+        #else
+        let sb = UIStoryboard.init(name: "SecondStoryboard", bundle: nil)
+        let vc = sb.instantiateInitialViewController()!
+        let popup = PopupViewController(contentController: vc, popupWidth: 200, popupHeight: 400)
+        self.present(popup, animated: true, completion: nil)
+        #endif
     }
     
 }
