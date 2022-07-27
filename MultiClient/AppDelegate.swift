@@ -24,6 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UINavigationBar.appearance().compactAppearance = appearance
         }
         
+        // ref: https://stackoverflow.com/q/37615405/4778712
+        // to handle multi GoogleService-Info.plist
+        
         return true
     }
 
